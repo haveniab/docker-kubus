@@ -7,12 +7,7 @@ public class Kubus {
 		int sisi, tinggi, alas, nim;
 		float luas;
 		float volumekubus, volumelimas,volumetotal;
-		String nama,kelas;
 
-		System.out.println("Masukkan Nama\t\t: ");
-		nama = sc.nextLine();
-		System.out.println("Masukkan Kelas\t\t: ");
-		kelas = sc.nextLine();
 		System.out.println("Masukkan Nim\t\t: ");
 		nim = sc.nextInt();
 
@@ -27,8 +22,6 @@ public class Kubus {
 		volumelimas = ((1F/3F) * luas * tinggi);
 		volumetotal = volumekubus + volumelimas;
 
-		System.out.println("Nama Saya  " + nama);
-		System.out.println("Kelas Saya  " + kelas);
 		System.out.println("Nim Saya " + nim);
 		System.out.println(String.format("Luas salah satu sisi kubus adalah %.2f", luas));
 		System.out.println(String.format("Volume Kubus %.2f", volumekubus));
